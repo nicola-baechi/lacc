@@ -3,6 +3,9 @@
 </script>
 
 <main>
+  <div>
+
+  </div>
   <slot />
 </main>
 
