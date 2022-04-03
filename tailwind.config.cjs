@@ -7,14 +7,15 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
       },
       screens: {
-        '3xl': '1700px'
+        '3xl': '1700px',
       },
       width: {
-        '90': '20rem'
-
-      }
+        90: '20rem',
+      },
+      textShadow: {
+        '2xl': '0 0 5px rgba(0,0,0,0.5)',
+      },
     },
-
   },
-  plugins: [],
+  plugins: [require('tailwindcss-textshadow')],
 };
